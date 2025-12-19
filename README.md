@@ -124,16 +124,27 @@ To further improve performance, hyperparameter tuning was applied, with a partic
    - Subsample and column sampling
 
 - Cross-validation used to ensure generalization
+  
+### 🚀 Optimized Model Performance Summary
+
+| Model | CV Accuracy |
+| :--- | :---: |
+| **XGBoost** | 83.29% |
+| **Gradient Boosting** | 83.16% |
+| **Random Forest** | 83.10% |
 
 ### 📌 Post-Tuning Outcome
 
 After hyperparameter optimization:
 
-   - XGBoost outperformed all baseline models
+   - `XGBoost` outperformed all baseline models
 
    - Demonstrated better generalization on unseen data
 
    - Reduced overfitting compared to baseline models
+
+![image_alt](https://www.kaggleusercontent.com/kf/287014350/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..XglT3_2iBP-ZDkepjOsobg.kSEIxZ2d0Twm5Xb39-9n9wN4ocBpXw4B7pYfiufd5zQia5St-0oqBgko41S4dKW56cZsa8CB6KXhgI0EIjbvH2CPf8gV-oaiF6b8Vr1-2_ADAmhzPYLgDlKtmHFMnKIuBz7e_tBfHtoyeoQDR4vAVAYaz6uwINVVRuWkwkzTRMKbiR2_EbU5atXrndHk7UP7bD17UI0_MjtCcESjfO2-_MWicn32-YDRHMVi2T_Uz0jePjxZeOfU7opyZanaph7j670F276FL0ZXlzXHqymNbM2-Y-AlQKmqfke2XGNeLF5EkXbYmTooa9Qa76tO3ipwhF6P8DR5QO8FgTtvtOiWtRNaijAqY_6eJGlUxb-5etfXRNDN2Hv0y0QtrW19UVvaLL5_1SpxBis8ERDQJhSjttY4UuHR7GrJAQzD9WZ5DsWc-WXo5kKdPn7MV-n_Rm0rHAesHAeDcjau5gs6z9jcmkLks2rTeUAfAO18Uex3AIh1gTFO5oXEi4tDpcKd1OMTx0kGW1CGP_QxxerPJUxhDVZ0B6w8EpTRgwCrW5GVhPhEE2T1MGkKum7VE-LSfUbP5XA3rEqesn81JyhU2YlNkGJJeLlA5QDmYqGBT9oWfaSjwHk4ezYFOTkyTXTtMhGQ7NxpXs0rMn7Ah8Zj3BFA2jWD2PBFUW4FJ_K4IzMvtpI.bsQgwAxSVUpvupffUWChRw/__results___files/__results___99_0.png)
+
 
 ➡️ **Tuned XGBoost was selected as the final model**
 
